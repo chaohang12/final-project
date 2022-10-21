@@ -1,0 +1,88 @@
+.content{
+    max-width: 500px;
+    margin:auto;
+}
+
+body{
+    background-image: url("/img/fork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;   
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding:20px;
+}
+h2{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding:20px;
+}
+.topnav{
+    overflow: hidden;
+    width: 235px;
+    margin:auto;
+    
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+p{
+    text-align: center;
+    font-family: 'Concert One';
+}
+.list {
+    text-align: center;
+    font-family: 'Concert One';
+}
+.image{
+    text-align: center;
+}
+.fastfood{
+    text-align: center;
+}
+.doors{
+    text-align: center;
+    
+    width: 100%;
+    height:100%;
+}
+
+.fa-brands{
+    color:rgb(0, 0, 0);  
+    font-size: 40px;
+    padding:5px;
+    margin:20px;
+    display:flex;
+    column-gap: 5px;
+    justify-content: center;
+    flex-wrap:wrap;  
+}
+a{
+    text-decoration: none;
+}
+video{
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
