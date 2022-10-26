@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     height:100%;
     width:100%;   
 }
@@ -26,7 +27,6 @@ h2{
     overflow: hidden;
     width: 235px;
     margin:auto;
-    
 }
 .topnav a {
     float: left;
@@ -53,6 +53,8 @@ p{
 .list {
     text-align: center;
     font-family: 'Concert One';
+    margin-bottom: 90%;
+    color:rgb(233, 243, 236)
 }
 .image{
     text-align: center;
@@ -63,19 +65,20 @@ p{
 .doors{
     text-align: center; 
     width: 100%;
-    height:100%;
-    margin: 50px;
+    height: 500px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     display:grid;
+    /* display: inline-block; */
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr; */
+    row-gap: 15px;
+    column-gap: 10px;
 }
 
 .fa-brands{
-    color:rgb(0, 0, 0);  
+    color:rgb(234, 243, 236);  
     font-size: 40px;
     padding:5px;
     margin:20px;
@@ -84,6 +87,17 @@ p{
     justify-content: center;
     flex-wrap:wrap;  
 }
+.fa-solid{
+    color:rgb(0, 0, 0);  
+    font-size: 40px;
+    padding:5px;
+    margin:20px;
+    margin-top: 400px;
+    display:flex;
+    column-gap: 5px;
+    justify-content: center;
+    flex-wrap:wrap; 
+}
 a{
     text-decoration: none;
 }
@@ -91,6 +105,7 @@ video{
    margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     display:block;
 }
 h3{
@@ -130,4 +145,15 @@ input[type=text], select, textarea {
     margin-left: auto;
     margin-right: auto;
     display:block;
+  }
+  footer {
+    text-align: center;
+    background-color: rgb(9, 114, 32);
+    color: white;
+  }
+  .recipes{
+    text-align: center;
+  }
+  .resturant{
+    text-align: center;
   }
