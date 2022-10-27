@@ -2,6 +2,14 @@
     max-width: 500px;
     margin:auto;
 }
+.hero-image {
+  background-image: linear-gradient(rgba(130, 231, 135, 0.5), rgba(158, 228, 149, 0.5)), url("/img/fastfood.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 body{
     background-image: url("/img/fork.jpg");
@@ -49,11 +57,12 @@ h2{
 p{
     text-align: center;
     font-family: 'Concert One';
+    color: rgb(243, 250, 247);
 }
 .list {
     text-align: center;
     font-family: 'Concert One';
-    margin-bottom: 90%;
+    margin-bottom: 20%;
     color:rgb(233, 243, 236)
 }
 .image{
@@ -150,6 +159,7 @@ input[type=text], select, textarea {
     text-align: center;
     background-color: rgb(9, 114, 32);
     color: white;
+    background-image: url(/img/fork.jpg);
   }
   .recipes{
     text-align: center;
