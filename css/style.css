@@ -3,7 +3,7 @@
     margin:auto;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(130, 231, 135, 0.5), rgba(158, 228, 149, 0.5)), url("../img/fastfood.jpg");
+  background-image: linear-gradient(rgba(130, 231, 135, 0.5), rgba(158, 228, 149, 0.5)), url("./img/fastfood.jpg");
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
