@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url("/img/fork.jpg");
+    background-image: url("../img/fork.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
